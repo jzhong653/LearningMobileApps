@@ -1,11 +1,20 @@
+/**
+ * @Author: Joseph Zhong
+ * @Date:   2019-06-04T14:03:33-05:00
+ * @Last modified by:   jzhong
+ * @Last modified time: 2019-06-04T14:10:05-05:00
+ */
+
+
+
 'use strict';
 
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'hybridapp',
     environment,
-    rootURL: '/',
-    locationType: 'auto',
+    rootURL: '',
+    locationType: 'hash',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
